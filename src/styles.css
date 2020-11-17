@@ -1,0 +1,141 @@
+body {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1em;
+    background-image: url('image/background.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 115%;
+    /* powyżej url do tełka - kolejne nazwy to po prostu background1, background2 i background3 */
+}
+
+.header {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto 1%;
+    display: flex;
+    box-shadow: 4px 4px 4px rgb(41, 31, 31);
+    opacity: 0.9;
+}
+.logo {
+    position: absolute;
+    top: 16%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    max-width: 12%;
+    filter: brightness(1.4);
+}
+.h4 {
+    font-size: 2.8vh;
+    color: white;
+    /* color:rgb(206, 201, 201);
+	text-shadow: -0px 0 black, 0 1px black, 0 1px  black, 0 -1px black; */
+    margin: 2% 4% 2%;
+    font-weight: 200;
+    text-align: center;
+}
+p {
+    font-size: 2vh;
+    color: white;
+    /* color:rgb(206, 201, 201);
+	text-shadow: -0px 0 black, 0 1px black, 0 1px black, 0 -1px black; */
+    margin: 2% 5% 2%;
+    font-weight: 200;
+    text-align: justify;
+}
+section {
+    margin: 2% 2% 2% 2%;
+    display: flex;
+}
+.figure {
+    flex: 2;
+}
+#dane {
+    max-width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 4px 4px 4px rgb(41, 31, 31);
+    border-radius: 2%;
+}
+#fabula {
+    max-width: 90%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 4px 4px 4px rgb(41, 31, 31);
+    border-radius: 2%;
+}
+.figure:hover {
+    transition-duration: 3s;
+    display: block;
+    -webkit-transform: scale(1.4);
+}
+.figure1 {
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -5%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.wskazowka {
+    max-width: 100%;
+    box-shadow: 4px 4px 4px rgb(41, 31, 31);
+    border-radius: 2%;
+    border: none;
+    align-self: flex-end;
+    /* visibility: hidden;  */
+}
+.wskazowka:hover {
+    transition-duration: 3s;
+    display: block;
+    -webkit-transform: scale(1.4);
+}
+.footer {
+    font-size: 2.4vh;
+    font-weight: 200;
+    color: rgb(206, 201, 201);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin: 0 auto 1%;
+    display: block;
+}
+.button {
+    background-color: #bb3d34;
+    border-radius: 8px;
+    border: none;
+    color: rgb(247, 243, 243);
+    padding: 6px 8px 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IM Fell English SC', serif;
+    display: inline;
+    font-size: 2vh;
+    margin: 10px 1px;
+    cursor: pointer;
+}
+form {
+    display: inline;
+}
+#button-clear {
+    background-color: #bb3d34;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IM Fell English SC', serif;
+    font-size: 1.5vh;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+div#preload {
+    display: none;
+}
